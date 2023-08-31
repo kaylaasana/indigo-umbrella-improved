@@ -9,3 +9,11 @@
 // * A link to the deployed application
 
 // * A link to the corresponding GitHub repository
+
+export default function projectPage() {
+    return (
+        <div>
+        <p>this is a project page </p>
+        </div>
+    );
+  }
