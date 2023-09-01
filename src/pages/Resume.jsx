@@ -1,7 +1,12 @@
+// import '../public/KaylaDatteResume.pdf';
+
+
 export default function resumePage() {
   return (
     <div>
-      <a href="">this will be a download link</a>
+        <div>
+      <a href='src\public\KaylaDatteResume.pdf' download="/KaylaDatteResume.pdf">Download My Resume</a>
+      </div>
       <p>My Proficiencies</p>
       <ul>
         <li>HTML</li>
