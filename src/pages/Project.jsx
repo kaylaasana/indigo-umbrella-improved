@@ -10,10 +10,19 @@
 
 // * A link to the corresponding GitHub repository
 
-export default function projectPage() {
+// import CatFish from "../public/CatFish.png";
+// import  from "";
+// import  from "";
+// import  from "";
+// import  from "";
+// import  from "";
+
+export default function footer() {
     return (
-        <div>
-        <p>this is a project page </p>
-        </div>
+      <div>
+        <a href="https://github.com/kaylaasana"><img src={CatFish}></img></a>
+        <a href="https://www.linkedin.com/in/kayladatte/"><img src={linkedin}></img></a>
+        <a href="https://stackoverflow.com/users/21856336/kaylaasana"><img src={stackoverflow}></img></a>
+      </div>
     );
   }

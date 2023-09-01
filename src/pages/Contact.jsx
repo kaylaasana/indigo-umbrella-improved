@@ -44,7 +44,7 @@ export default function contactPage() {
   const noInput = (e) => {
     e.preventDefault();
     if (!name || !email || !message) {
-      setErrorMessage("must complete all fields");
+      setErrorMessage("all fields required");
       return;
     }
   };
