@@ -50,7 +50,7 @@ export default function contactPage() {
   };
 
   return (
-    <div>
+    <div className="d-flex justify-content-center">
       <form className="form" onSubmit={handleFormSubmit}>
         <label>
           Name
