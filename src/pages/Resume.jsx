@@ -25,8 +25,8 @@ export default function resumePage() {
       </div>
       <div className="d-flex justify-content-center">
         <a
-          href="/KaylaDatteResume.pdf"
-          download="/KaylaDatteResume.pdf"
+          href="KaylaDatteResume.pdf"
+          download="KaylaDatteResume.pdf"
         >
           Download My Resume
         </a>
