@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 
+// export Nav component
 export default function Nav() {
   const [active, setLink] = useState("about-me")
-
+  // returning links to different components/pages
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">

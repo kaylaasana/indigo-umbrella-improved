@@ -2,7 +2,9 @@ import github from "../../public/github.png";
 import linkedin from "../../public/linkedin.png";
 import stackoverflow from "../../public/stackoverflow.png";
 
-export default function footer() {
+// export Footer component
+export default function Footer() {
+    // return footer element with links to my github, linkedin and stack overflow
     return (
       <footer className="d-flex justify-content-center">
         <a className="p-1" href="https://github.com/kaylaasana"><img src={github} className="img-fluid" width={35}></img></a>

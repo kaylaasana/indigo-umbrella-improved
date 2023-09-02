@@ -8,7 +8,7 @@ import Resume from './pages/Resume';
 import ErrorPage from './pages/ErrorPage';
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+// creating the router structure 
 const router = createBrowserRouter([
   {
     path: "/",

@@ -1,6 +1,7 @@
 import me from "../../public/me.jpg";
-
-export default function aboutMe() {
+// exporting AboutMe component
+export default function AboutMe() {
+  // returning elements that display about me content
   return (
     <div className="d-flex flex-column">
       <h2 className="d-flex justify-content-center p-2 border-bottom">About Me</h2>

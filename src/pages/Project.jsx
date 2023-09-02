@@ -5,7 +5,8 @@ import WeatherForecast from "../../public/WeatherForecast.jpg";
 import PasswordGen from "../../public/PasswordGen.png";
 import PreWork from "../../public/PreWork.png";
 
-export default function projects() {
+// exporting project elements
+export default function Projects() {
   return (
     <div>
       <ul className="">

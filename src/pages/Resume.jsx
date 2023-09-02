@@ -1,4 +1,5 @@
-export default function resumePage() {
+// exporting Resume page elements
+export default function ResumePage() {
   return (
     <div className="d-flex flex-column">
       <div>
@@ -24,6 +25,7 @@ export default function resumePage() {
         </ul>
       </div>
       <div className="d-flex justify-content-center">
+        {/* create link to download resume */}
         <a
           href="KaylaDatteResume.pdf"
           download="KaylaDatteResume.pdf"

@@ -1,4 +1,5 @@
-export default function errorPage() {
+// export error page content
+export default function ErrorPage() {
     return (
         <div>
         <p>this is an error page</p>

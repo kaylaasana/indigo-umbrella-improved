@@ -1,20 +1,21 @@
 import { validateEmail } from "../utils/helpers";
 import { useState } from "react";
 
-export default function contactPage() {
+// export contact page
+export default function ContactPage() {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [confirmMessage, setConfirmMessage] = useState("");
-
+  // function that handles the input of the form
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
     setConfirmMessage("");
-
+    // check input type
     if (inputType === "email") {
       setEmail(inputValue);
     } else if (inputType === "name") {
@@ -23,7 +24,7 @@ export default function contactPage() {
       setMessage(inputValue);
     }
   };
-
+// function that handles form submission
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -40,7 +41,7 @@ export default function contactPage() {
       return;
     }
   };
-
+//  function that alerts if there is no input
   const noInput = (e) => {
     e.preventDefault();
     if (!name || !email || !message) {
@@ -48,7 +49,7 @@ export default function contactPage() {
       return;
     }
   };
-
+// returning contact form elements to the page
   return (
     <div className="d-flex justify-content-center">
       <form className="form" onSubmit={handleFormSubmit}>
