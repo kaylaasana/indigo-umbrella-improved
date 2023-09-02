@@ -1,4 +1,4 @@
-import me from "../public/me.jpg";
+import me from "../../public/me.jpg";
 
 export default function aboutMe() {
   return (

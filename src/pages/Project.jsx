@@ -1,9 +1,9 @@
-import CatFish from "../public/CatFish.png";
-import SillyCodeValley from "../public/SillyCodeValley.png";
-import WorkdayScheduler from "../public/WorkdayScheduler.png";
-import WeatherForecast from "../public/WeatherForecast.jpg";
-import PasswordGen from "../public/PasswordGen.png";
-import PreWork from "../public/PreWork.png";
+import CatFish from "../../public/CatFish.png";
+import SillyCodeValley from "../../public/SillyCodeValley.png";
+import WorkdayScheduler from "../../public/WorkdayScheduler.png";
+import WeatherForecast from "../../public/WeatherForecast.jpg";
+import PasswordGen from "../../public/PasswordGen.png";
+import PreWork from "../../public/PreWork.png";
 
 export default function projects() {
   return (
