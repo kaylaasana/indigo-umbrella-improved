@@ -1,5 +1,3 @@
-// import '../public/KaylaDatteResume.pdf';
-
 export default function resumePage() {
   return (
     <div className="d-flex flex-column">
@@ -27,7 +25,7 @@ export default function resumePage() {
       </div>
       <div className="d-flex justify-content-center">
         <a
-          href="src\public\KaylaDatteResume.pdf"
+          href="/KaylaDatteResume.pdf"
           download="/KaylaDatteResume.pdf"
         >
           Download My Resume
