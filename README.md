@@ -13,7 +13,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 
-To view this page visit the link [here]()
+To view this page visit the link [here](https://comfy-kulfi-bcdd88.netlify.app/)
 <br></br>
 Navigate the page using the navigation bar at the top. 
 <br></br>
