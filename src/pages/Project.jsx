@@ -1,6 +1,6 @@
 import CatFish from "../../public/CatFish.png";
 import SillyCodeValley from "../../public/SillyCodeValley.png";
-import WorkdayScheduler from "../../public/WorkdayScheduler.png";
+import BlueFin from "../../public/BlueFin.png";
 import WeatherForecast from "../../public/WeatherForecast.jpg";
 import PasswordGen from "../../public/PasswordGen.png";
 import PreWork from "../../public/PreWork.png";
@@ -40,18 +40,18 @@ export default function Projects() {
           <li className="col p-2 m-5">
             <div className="d-flex justify-content-center">
               <button className="m-3">
-                <a href="https://kaylaasana.github.io/work-day-scheduler/">
-                  Workday Scheduler
+                <a href="https://murmuring-thicket-14542-74d2838aa204.herokuapp.com/">
+                  BlueFin
                 </a>
               </button>
               <br></br>
               <button className="m-3">
-                <a href="https://github.com/kaylaasana/work-day-scheduler">
+                <a href="https://github.com/kaylaasana/BlueFin">
                   GitHub
                 </a>
               </button>
             </div>
-            <img src={WorkdayScheduler} className="img-fluid" width={300}></img>
+            <img src={BlueFin} className="img-fluid" width={300}></img>
           </li>
         </div>
         <div className="row">
