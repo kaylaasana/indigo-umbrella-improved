@@ -47,7 +47,7 @@ img{
 
 #about-me-section {
   background-color: #75B9BE !important;
-  margin-bottom: 50px; 
+  padding-bottom: 50px; 
 }
 
 @media (max-width: 995px) {
