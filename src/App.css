@@ -40,8 +40,8 @@ img{
 }
 
 #about-me-section {
-  background-color: #75B9BE;
-  height: 100%;
+  background-color: #75B9BE !important;
+  height: 100% !important;
 }
 
 @media (max-width: 995px) {
