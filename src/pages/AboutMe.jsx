@@ -3,7 +3,7 @@ import me from "../../public/me.jpg";
 export default function AboutMe() {
   // returning elements that display about me content
   return (
-    <div className="d-flex flex-column">
+    <div id="about-me-section" className="d-flex flex-column">
       <h2 className="d-flex justify-content-center p-2 border-bottom">About Me</h2>
       <div id="about-container" className="d-flex">
         <img
