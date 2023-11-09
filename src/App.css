@@ -2,6 +2,7 @@
   background-color: #F7C7DB;
   color:#36413E;
   font-family: 'Victor Mono', monospace;
+  height: 100%;
 }
 
 a {
@@ -41,7 +42,6 @@ img{
 
 #about-me-section {
   background-color: #75B9BE !important;
-  height: 100% !important;
 }
 
 @media (max-width: 995px) {
