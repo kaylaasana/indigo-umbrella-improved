@@ -1,11 +1,11 @@
 #root {
-  background-color: #c7d6d5;
-  color: #0a0903;
+  background-color: #F7C7DB;
+  color:#36413E;
   font-family: 'Victor Mono', monospace;
 }
 
 a {
-  color: #d34f73 !important;
+  color: #C86FC9 !important;
   font-weight: bold
 }
 
@@ -24,13 +24,13 @@ ul {
 
 #me {
   border-radius: 15px 50px;
-  background: #52489c;
+  background: #8E518D;
   padding: 5px;
 }
 
 img{
   border-radius: 20px;
-  background: #52489c;
+  background: #8E518D;
   padding: 3px;
   margin: 5px;
 }
