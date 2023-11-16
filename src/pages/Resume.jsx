@@ -3,7 +3,7 @@ export default function ResumePage() {
   return (
     <div id="resume-component" className="d-flex flex-column">
       <div>
-      <p className="d-flex justify-content-center">My Proficiencies</p>
+      <h2 className="d-flex justify-content-center p-2">My Proficiencies</h2>
       </div>
       <div className="d-flex justify-content-center">
         <ul>

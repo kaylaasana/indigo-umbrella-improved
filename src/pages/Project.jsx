@@ -9,6 +9,7 @@ import PreWork from "../../public/PreWork.png";
 export default function Projects() {
   return (
     <div id="project-component">
+      <h2 className="d-flex justify-content-center p-2">Projects</h2>
       <ul className="">
         <div className="row">
           <li className="col p-2 m-5">
