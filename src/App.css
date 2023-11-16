@@ -4,11 +4,9 @@
   font-family: 'Victor Mono', monospace;
 }
 
-/* html,
-body, 
-#app {
-  height: 100% !important;
-} */
+html {
+  background-color: #FFDAB9;
+}
 
 a {
   color: #C86FC9 !important;
@@ -45,9 +43,13 @@ img{
   text-align: center;
 }
 
-#about-me-section {
+#about-me-component,
+#contact-component,
+#project-component,
+#resume-component
+#error-page {
   background-color: #75B9BE !important;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
 
 @media (max-width: 995px) {

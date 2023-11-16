@@ -1,7 +1,7 @@
 // exporting Resume page elements
 export default function ResumePage() {
   return (
-    <div className="d-flex flex-column">
+    <div id="resume-component" className="d-flex flex-column">
       <div>
       <p className="d-flex justify-content-center">My Proficiencies</p>
       </div>

@@ -8,7 +8,7 @@ import PreWork from "../../public/PreWork.png";
 // exporting project elements
 export default function Projects() {
   return (
-    <div>
+    <div id="project-component">
       <ul className="">
         <div className="row">
           <li className="col p-2 m-5">
