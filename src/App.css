@@ -43,9 +43,9 @@ img{
   text-align: center;
 }
 
+.project-container,
 #about-me-component,
 #contact-component,
-#project-component,
 #resume-component,
 #error-page {
   background-color: #75B9BE !important;
