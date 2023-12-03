@@ -12,8 +12,8 @@ export default function Nav() {
         <li className="nav-item" onClick={() => {setLink("about-me")}}>
           <Link to="/" className={`${active === 'about-me' ? 'active' : ''} nav-link`} aria-current="page">About Me</Link>
         </li>
-        <li className="nav-item" onClick={() => {setLink("projects")}}>
-          <Link to="/project" className={`${active === 'projects' ? 'active' : ''} nav-link`} aria-current="page">Projects</Link>
+        <li className="nav-item" onClick={() => {setLink("portfolio")}}>
+          <Link to="/portfolio" className={`${active === 'portfolio' ? 'active' : ''} nav-link`} aria-current="page">Portfolio</Link>
         </li>
         <li className="nav-item" onClick={() => {setLink("contact-me")}}>
           <Link to="/contact" className={`${active === 'contact-me' ? 'active' : ''} nav-link`} aria-current="page">Contact Me</Link>
