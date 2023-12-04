@@ -7,10 +7,16 @@ import './App.css'
 function App() {
   return (
     <div>
-    <Header />
-    <Nav />
-    <Outlet />
-    <Footer />
+      <Header />
+      <Nav />
+      <Routes>
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+      <Footer />
     </div>
   )
 }
