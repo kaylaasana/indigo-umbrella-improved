@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 
 export default function Projects({ projects }) {    
     const [hoverStatus, setHover] = useState(Array(projects.length).fill('false'))
