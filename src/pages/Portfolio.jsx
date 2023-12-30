@@ -20,7 +20,7 @@ export default function Portfolio(){
 
 
     return(
-        <div className='project-container'>
+        <div id='project-container'>
             <Projects projects={projects} />
         </div>
     )
