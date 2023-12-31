@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 // import Resume from './pages/Resume.jsx';
 // import ErrorPage from './pages/ErrorPage.jsx';
 import './App.css'
-import background from "annie-spratt-0ZPSX_mQ3xI-unsplash.jpg"
+import background from "../public/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg";
 // create App component
 function App() {
   return (
