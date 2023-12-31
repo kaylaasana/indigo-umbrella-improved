@@ -16,15 +16,7 @@ export default function AboutMe() {
           effect="blur"
         />
         <p id="about-me" className="p-5 m-5 border ">
-          Here is where my bio goes. Filler words are going to be this repeating
-          over and over for a few lines so that I can see what it will look like
-          when I actually take the time to write somthing meaningful about
-          myself. Filler words are going to be this repeating over and over for
-          a few lines so that I can see what it will look like when I actually
-          take the time to write somthing meaningful about myself. Filler words
-          are going to be this repeating over and over for a few lines so that I
-          can see what it will look like when I actually take the time to write
-          somthing meaningful about myself.
+          Hello, my name is Kayla Datte and I'm a certified Full-Stack Web Developer. To quickly summarize my background, I graduated from Arizona State University with a Bachelor of Science in Sociology. I spent the first seven years of my post graduate career in administration for a small software company in the mortgage industry. After a rough year for the mortgage industry, I was part of a round of lay-offs. I chose to seize that opportunity to pursue a seven year long curiosity in coding. For three months I fully emersed myself in a web development coding bootcamp through the University of California, Berkeley. I graduated with a solid A grade in September of 2023 and have spent the time since improving and expanding my projects, sharpening my algorithmic skills, seeking to understand new languages and pursuing a career in this industry, of which I am now enamored. I encourage you to check out my portfolio; if you like what you see and are interested in working with me, you can find my contact information on my resume under the resume tab.
         </p>
       </div>
     </div>
