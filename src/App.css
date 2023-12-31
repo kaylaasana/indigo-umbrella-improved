@@ -2,21 +2,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* background-color: #133C55; */
+  background-color: #133C55;
   color:#000000;
   font-family: 'Victor Mono', monospace;
 }
 
-#root {
-  background-image: url(annie-spratt-0ZPSX_mQ3xI-unsplash.jpg) !important;
-}
-
-/* #root, 
+#root, 
 html, 
 #footer
 {
   background-color: #133C55;
-} */
+}
 
 h1 {
   font-family: 'Dancing Script', cursive;
