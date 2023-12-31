@@ -12,6 +12,10 @@ function App() {
       style={{
         backgroundImage: `url(${background})`,
         backgroundRepeat: "no-repeat",
+        height: "100%",
+        backgroundPosition: center,
+        backgroundRepeat: no - repeat,
+        backgroundSize: cover,
       }}
     >
       <Header />
