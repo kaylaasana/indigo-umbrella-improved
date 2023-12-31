@@ -1,50 +1,71 @@
 import { useState } from "react";
 
-export default function Projects({ projects }) {    
-    const [hoverStatus, setHover] = useState(Array(projects.length).fill('false'))
-    
-    const handleHover = (index)=>{
-        const newHoverStatus = [...hoverStatus]
-        newHoverStatus[index] = !newHoverStatus[index]
-        setHover(newHoverStatus)
-    }
+export default function Projects({ projects }) {
+  const [hoverStatus, setHover] = useState(
+    Array(projects.length).fill("false")
+  );
 
-    return (
-        <>
-            {projects.map((project, index) => {
-                const { name, imgPath, github, url } = project;
-                const style = {
-                    backgroundImage: `url(${imgPath})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    width: '31vw',
-                };
+  const handleHover = (index) => {
+    const newHoverStatus = [...hoverStatus];
+    newHoverStatus[index] = !newHoverStatus[index];
+    setHover(newHoverStatus);
+  };
 
-                const show = {
-                    display: 'block',
-                }
+  return (
+    <>
+      {projects.map((project, index) => {
+        const { name, imgPath, github, url } = project;
+        const style = {
+          backgroundImage: `url(${imgPath})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          width: "31vw",
+        };
 
-                const hide = {
-                    display: 'none'
-                }
+        const show = {
+          display: "block",
+        };
 
-                return (
-                    <section
-                        className="project m-3"
-                        key={name}
-                        style={style}
-                        onMouseEnter={()=>{handleHover(index)}}
-                        onMouseLeave={()=>{handleHover(index)}}
-                    >
-                        <p className="project-title">
-                            <a href={url} className="custom-link-portfolio" target="_blank" rel="noopener noreferrer" style={hoverStatus[index]? hide: show}>{name} {' '}</a>
-                            
-                            <a href={github} className="custom-link-portfolio" target="_blank" rel="noopener noreferrer" style={hoverStatus[index]? hide: show}>Github </a>
-                            
-                        </p>
-                    </section>
-                );
-            })}
-        </>
-    );
+        const hide = {
+          display: "none",
+        };
+
+        return (
+          <section
+            className="project m-3"
+            key={name}
+            style={style}
+            onMouseEnter={() => {
+              handleHover(index);
+            }}
+            onMouseLeave={() => {
+              handleHover(index);
+            }}
+          >
+            <p className="project-title">
+              <a
+                href={url}
+                className="custom-link-portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={hoverStatus[index] ? hide : show}
+              >
+                {name}{" "}
+              </a>
+
+              <a
+                href={github}
+                className="custom-link-portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={hoverStatus[index] ? hide : show}
+              >
+                Github{" "}
+              </a>
+            </p>
+          </section>
+        );
+      })}
+    </>
+  );
 }
