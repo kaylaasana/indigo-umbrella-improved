@@ -6,7 +6,7 @@ export default function Nav() {
   const [active, setLink] = useState("about-me")
   // returning links to different components/pages
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id='navbar' className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
       <ul className="navbar-nav nav nav-tabs me-auto mb-2 mb-lg-0 ">
         <li className="nav-item" onClick={() => {setLink("about-me")}}>

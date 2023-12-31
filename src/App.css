@@ -26,6 +26,10 @@ ul {
   list-style-type: none;
 }
 
+#navbar {
+  padding:0
+}
+
 #me,
 .social {
   border-radius: 2%;
