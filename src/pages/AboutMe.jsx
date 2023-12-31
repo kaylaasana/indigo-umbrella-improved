@@ -13,7 +13,6 @@ export default function AboutMe() {
           alt="photo of Kayla sitting on a couch surrounded by a wall of books."
           width={300}
           src={me}
-          PlaceholderSrc={PlaceholderImage}
           effect="blur"
         />
         <p id="about-me" className="p-5 m-5 border ">
