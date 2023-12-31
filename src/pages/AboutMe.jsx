@@ -11,8 +11,6 @@ export default function AboutMe() {
           id="me"
           className="img-fluid "
           alt="photo of Kayla sitting on a couch surrounded by a wall of books."
-          width={300}
-          height={600}
           src={me}
           effect="blur"
         />
