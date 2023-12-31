@@ -7,7 +7,7 @@
   font-family: 'Victor Mono', monospace;
 }
 
-body {
+#root {
   background-image: url(annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
 }
 
