@@ -37,7 +37,7 @@ ul {
   text-align: center;
 }
 
-.project-container{
+#project-container{
   display: flex;
   justify-content: center;
   height: 80vh;
@@ -59,7 +59,7 @@ ul {
   padding: 1%;
   color: #000000;
   font-size: 30px;
-  background-color: #F2CC8F;
+  background-color: #75B9BE;
 }
 
 .custom-link{
