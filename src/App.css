@@ -3,9 +3,12 @@
   margin: 0;
   box-sizing: border-box;
   /* background-color: #133C55; */
-  background-image: url(annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
   color:#000000;
   font-family: 'Victor Mono', monospace;
+}
+
+body {
+  background-image: url(annie-spratt-0ZPSX_mQ3xI-unsplash.jpg);
 }
 
 /* #root, 
