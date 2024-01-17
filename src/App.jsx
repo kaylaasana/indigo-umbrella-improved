@@ -9,14 +9,14 @@ import background from "../public/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg";
 function App() {
   return (
     <div
-      style={{
-        backgroundImage: `url(${background})`,
-        backgroundRepeat: "no-repeat",
-        height: "100%",
-        backgroundPosition: center,
-        backgroundRepeat: no - repeat,
-        backgroundSize: cover,
-      }}
+      // style={{
+      //   backgroundImage: `url(${background})`,
+      //   backgroundRepeat: "no-repeat",
+      //   height: "100%",
+      //   backgroundPosition: ,
+      //   backgroundRepeat: no - repeat,
+      //   backgroundSize: cover,
+      // }}
     >
       <Header />
       <Nav />
