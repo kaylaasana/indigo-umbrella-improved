@@ -51,9 +51,10 @@ export default function ContactPage() {
   };
 // returning contact form elements to the page
   return (
-    <div id="contact-component" className="d-flex col justify-content-center">
-      <h2 className="row p-2">Contact Me</h2>
-      <form className="row form" onSubmit={handleFormSubmit}>
+    <div id="contact-component" className="d-flex justify-content-center">
+      <h2 className="p-2">Contact Me</h2>
+      <br></br>
+      <form className="form" onSubmit={handleFormSubmit}>
         <label>
           Name
           <br></br>
