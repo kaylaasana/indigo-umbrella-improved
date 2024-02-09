@@ -51,9 +51,8 @@ export default function ContactPage() {
   };
 // returning contact form elements to the page
   return (
-    <div id="contact-component" className="d-flex justify-content-center">
+    <div id="contact-component" className="d-flex flex-column align-items-center">
       <h2 className="p-2">Contact Me</h2>
-      <br></br>
       <form className="form" onSubmit={handleFormSubmit}>
         <label>
           Name
