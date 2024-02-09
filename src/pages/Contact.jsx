@@ -93,7 +93,7 @@ export default function ContactPage() {
           />
         </label>
         <br></br>
-        <button type="submit align-items-center">Submit</button>
+        <button type="submit d-flex align-items-center">Submit</button>
       </form>
       {errorMessage && (
         <div>
