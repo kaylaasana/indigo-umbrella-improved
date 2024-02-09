@@ -93,7 +93,7 @@ export default function ContactPage() {
           />
         </label>
         <br></br>
-        <button type="submit">Submit</button>
+        <button type="submit justify-content-center">Submit</button>
       </form>
       {errorMessage && (
         <div>
