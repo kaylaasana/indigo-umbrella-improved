@@ -24,7 +24,7 @@ export default function ContactPage() {
       setMessage(inputValue);
     }
   };
-// function that handles form submission
+  // function that handles form submission
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
@@ -41,7 +41,7 @@ export default function ContactPage() {
       return;
     }
   };
-//  function that alerts if there is no input
+  //  function that alerts if there is no input
   const noInput = (e) => {
     e.preventDefault();
     if (!name || !email || !message) {
@@ -49,11 +49,21 @@ export default function ContactPage() {
       return;
     }
   };
-// returning contact form elements to the page
+  // returning contact form elements to the page
   return (
-    <div id="contact-component" className="d-flex flex-column align-items-center">
+    <div
+      id="contact-component"
+      className="d-flex flex-column align-items-center"
+    >
       <h2 className="p-2">Contact Me</h2>
-      <form className="form" onSubmit={handleFormSubmit}>
+      <form
+        action="mailto:kaylacodesalot@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm"
+        className="form"
+        onSubmit={handleFormSubmit}
+      >
         <label>
           Name
           <br></br>
