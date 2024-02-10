@@ -37,7 +37,7 @@ export default function ContactPage() {
 
     if (toSend.name && toSend.email && toSend.message) {
       try {
-        await send('<YOUR_SERVICE_ID>', '<YOUR_TEMPLATE_ID>', toSend, '<YOUR_USER_ID>');
+        await send(process.env.SERVICE_ID, process.env.TEMPLATE_ID, toSend, process.env.USER_ID);
         setConfirmMessage("Email sent successfully");
         setToSend({
           name: '',
