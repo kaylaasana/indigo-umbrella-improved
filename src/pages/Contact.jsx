@@ -23,11 +23,11 @@ export default function ContactPage() {
     setConfirmMessage("");
     // check input type
     if (inputType === "email") {
-      setEmail(inputValue);
+      setToSend(inputValue);
     } else if (inputType === "name") {
-      setName(inputValue);
+      setToSend(inputValue);
     } else {
-      setMessage(inputValue);
+      setToSend(inputValue);
     }
   };
 
